@@ -4,7 +4,7 @@
 }
 
 .font-courier {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
@@ -35,7 +35,7 @@ header {
     background-color: #0099ff;
     padding: 20px 20px;
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     border: 0;
     border-bottom: 3px solid #0066aa;
@@ -71,12 +71,12 @@ header {
 }
 
 .recipe-title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-size: 60px;
 }
 
 .recipe-description {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-size: 25px;
     margin-bottom: 30px;
 }
@@ -88,13 +88,13 @@ header {
 }
 
 .ingredients-title {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-size: 50px;
 }
 
 ul > li {
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
 
 ul {
@@ -141,11 +141,11 @@ ul {
 
 .steps-title {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
     font-size: 50px;
 }
 
 ol > li {
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif;
 }
