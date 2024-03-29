@@ -1,0 +1,254 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-courier {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+header {
+    color: white;
+    background-color: #ff8a00;
+    border-bottom: 3px solid #a85a00;
+    font-family: Helvetica;
+    padding: 15px 0px 15px 0px;
+}
+
+.header-title {
+    margin-left: 5%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header-page {
+    margin-left: 10%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header-button {
+    margin-left: 10%;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    background-color: #0099ff;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 3px solid #0066aa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.funny-chef-wrapper {
+    padding: 50px 0px 50px 0px;
+    background-image: url(./images/Private-versus-Personal-Chef.jpg);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    height: 650px;
+    background-size: 2000px;
+    width: 100%;
+}
+
+.funny-chef-info {
+    margin-left: 80px;
+    width: 70%;
+}
+
+.funny-chef-title {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+}
+
+.funny-chef-description {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.funny-chef-explore-button {
+    color: white;
+    background-color: #ff8a00;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 3px solid #a85a00;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.funny-chef-premium-button {
+    color: white;
+    background-color: #0099ff;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 3px solid #0066aa;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.about-wrapper {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    height: 500px;
+}
+
+.about-container {
+    width: 100%;
+}
+
+.about-image-container {
+    display: inline-block;
+    width: 40%;
+    overflow: hidden;
+}
+
+.about-image {
+    margin-right: 25px;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.about-info {
+    margin-left: 25px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+}
+
+.about-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-line {
+    margin-bottom: 40px;
+}
+
+.about-description {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.about-location {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.about-button {
+    color: white;
+    background-color: #ff8a00;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 3px solid #a85a00;
+    border-radius: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.top3 {
+    color: white;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    background-image: url("./images/banner.jpg");
+    background-color: rgba(0, 0, 0, 0.9);
+    background-blend-mode: multiply;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+}
+
+.recipe-container {
+    margin: 0px 50px 0px 50px;
+    background-color: white;
+    border-right: 3px solid rgb(150, 150, 150);
+    border-bottom: 3px solid rgb(150, 150, 150);
+    display: inline-block;
+    width: 500px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.recipe-image-container {
+    display: inline-block;
+    width: 220px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.recipe-image {
+    object-fit: cover;
+    width: 220px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.recipe-info {
+    border-radius: 10px;
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 276px;
+    height: 225px
+}
+
+.recipe-type {
+    color: #ff8a00;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.recipe-description {
+    color: rgb(29, 29, 29);
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.recipe-time {
+    font-size: 12px;
+}
+
+a.recipe-container:link
+{
+   color: black;
+   text-decoration: none;
+}
+a.recipe-container:visited
+{
+   color: black;
+   text-decoration: none;
+}
+a.recipe-container:hover
+{
+   color: black;
+   text-decoration: none;
+}
+a.recipe-container:active
+{
+   color: black;
+   text-decoration: none;
+}
